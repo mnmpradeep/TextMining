@@ -1,0 +1,3 @@
+
+problems of polysemy and synonymy. Over the years, people have often held the hypothesis that pattern (or phrase)-based approaches should perform the hypothesis that pattern (or phrase)-based approaches should perform better than the term-based Ones, but many experiments do not support this hypothesis. This 
+paper presents an innovative and effective pattern discovery technique which includes the processes of pattern deploying and pattern evolving, to improve the effectiveness of using and updating 

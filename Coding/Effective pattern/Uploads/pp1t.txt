@@ -1,0 +1,87 @@
+In this section, we discuss how to reshuffle supports of
+terms within normal forms of d-patterns based on negative
+documents in the training set. The technique will be useful
+to reduce the side effects of noisy patterns because of the
+low-frequency problem. This technique is called inner
+pattern evolution here, because it only changes a pattern’s
+term supports within the pattern.
+
+
+A threshold is usually used to classify documents into
+relevant or irrelevant categories. Using the d-patterns, the
+threshold can be defined naturally as follows:
+ThresholdðDPÞ ¼ min p2DP X ðt;wÞ2ðpÞ
+supportðtÞ 0 @ 1 A: ð5Þ
+
+
+A noise negative document nd in D is a negative
+document that the system falsely identified as a positive,
+that is weightðndÞ  ThresholdðDPÞ. In order to reduce the
+noise, we need to track which d-patterns have been used to
+give rise to such an error. We call these patterns offenders of
+nd.
+
+
+An offender of nd is a d-pattern that has at least one term
+in nd. The set of offenders of nd is defined by:
+ðndÞ ¼ fp 2 DPjtermsetðpÞ \ nd 6¼ ;g: ð6Þ
+There are two types of offenders: 1) a complete conflict
+offender which is a subset of nd; and 2) a partial conflict
+offender which contains part of terms of nd.
+
+
+The basic idea of updating patterns is explained as follows:
+complete conflict offenders are removed from d-patterns
+first. For partial conflict offenders, their term supports are
+reshuffled in order to reduce the effects of noise documents.
+The main process of inner pattern evolution is implemented
+by the algorithm IPEvolving (see Algorithm 2 in
+Fig. 3). The inputs of this algorithm are a set of d-patterns
+DP, a training set D ¼ Dþ [ D. The output is a composed
+of d-pattern. Step 2 in IPEvolving is used to estimate the
+threshold for finding the noise negative documents. Steps 3
+to 10 revise term supports by using all noise negative
+documents. Step 4 is to find noise documents and the
+corresponding offenders. Step 5 gets normal forms of dpatterns
+NDP. Step 6 calls algorithm Shuffling (see Algorithm
+3 in Fig. 4) to update NDP according to noise
+documents. Steps 7 to 9 compose updated normal forms
+together.
+
+
+
+The time complexity of Algorithm 2 in Fig. 3 is decided
+by step 2, the number of calls for Shuffling algorithm and
+the number of using  operation. Step 2 takes OðnmÞ. For
+each noise negative pattern nd, the algorithm gets its
+offenders that takes Oðnm 	 jndjÞ in step 4, and then calls
+once Shuffling. After that, it calls n  operation that takes
+OðnmmÞ ¼ Oðnm2Þ.
+
+
+The task of algorithm Shuffling is to tune the support
+distribution of terms within a d-pattern. A different strategy
+is dedicated in this algorithm for each type of offender. As
+stated in step 2 in the algorithm Shuffling, complete conflict
+offenders (d-patterns) are removed since all elements
+within the d-patterns are held by the negative documents
+indicating that they can be discarded for preventing
+interference from these possible “noises.”
+The parameter offering is used in step 4 for the purpose of
+temporarily storing the reduced supports of some terms in a
+partial conflict offender. The offering is part of the sum of
+supports of terms in a d-pattern where these terms also
+appear in a noise document. The algorithm calculates the
+base in step 5 which is certainly not zero since
+termsetðpÞ  nd 6¼ ;; and then updates the support distributions
+of terms in step 6.
+
+
+For example, for the following d-pattern
+bd ¼ fðt1; 3Þ; ðt2; 3Þ; ðt3; 3Þ; ðt4; 3Þ; ðt6; 8Þg:
+ZHONG ET AL.: EFFECTIVE PATTERN DISCOVERY FOR TEXT MINING 35
+TABLE 3
+Example of a Set of Positive Documents Consisting
+of Pattern Taxonomies
+The number beside each sequential pattern indicates the absolute
+support of pattern.

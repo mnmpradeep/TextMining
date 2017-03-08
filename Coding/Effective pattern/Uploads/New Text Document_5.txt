@@ -1,0 +1,10 @@
+
+   void main()
+  {
+     for(i=1;i<10;i++)
+     {
+        p=pow(i);
+       System.out.println("square of" + i + "is" + p);
+}
+}
+    

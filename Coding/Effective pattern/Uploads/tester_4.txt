@@ -1,0 +1,4 @@
+
+Description:
+		Now a days for livelihood every user need gas. So we are having no companies and that having no of distributors. User will have any one the company connection. So he can book the gas whenever he need.
+		The Gas Agency system is providing facility to the users from that the user can make online gas booking easily. If the user (Consumer) has no gas connection, the system is providing facility that user can make a request for new connection. And also providing the facility like he can make a request for transfer gas connection from one location to another.  

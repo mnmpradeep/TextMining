@@ -1,0 +1,21 @@
+ABSTRACT
+
+Project Title: Gas Agency System
+
+Category: Application Development, Enterprise.
+
+Objective: 
+	
+	Providing the facility to the users (Consumers) that can make online bookings for gas cylinder to concerned distributor or agency
+
+Description:
+		Now a days for livelihood every user need gas. So we are having no companies and that having no of distributors. User will have any one the company connection. So he can book the gas whenever he need.
+		The Gas Agency system is providing facility to the users from that the user can make online gas booking easily. If the user (Consumer) has no gas connection, the system is providing facility that user can make a request for new connection. And also providing the facility like he can make a request for transfer gas connection from one location to another.  
+
+Features:
+	
+The system keeps the track of Agency Details
+The system keeps the track of All Consumers Agency wise
+The  system will displays statically data about Gas Cylinders
+Providing Online gas Booking Facility
+Providing Online Transfer request facility from one location to another

@@ -1,0 +1,7 @@
+
+Knowledge discovery can be viewed as the process
+of nontrivial extraction of information from large databases,
+information that is implicitly presented in the data,
+previously unknown and potentially useful for users. Data
+mining is therefore an essential step in the process of
+knowledge discovery in databases.

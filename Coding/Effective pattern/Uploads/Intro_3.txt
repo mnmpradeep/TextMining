@@ -1,0 +1,9 @@
+
+Text mining is the discovery of interesting knowledge in
+text documents. It is a challenging issue to find accurate
+knowledge (or features) in text documents to help users to
+find what they want. In the beginning, Information
+Retrieval (IR) provided many term-based methods to solve
+this challenge, such as Rocchio and probabilistic models [4],
+rough set models [23], BM25 and support vector machine
+(SVM) [34] based filtering models. 

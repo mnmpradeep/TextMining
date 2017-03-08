@@ -1,0 +1,8 @@
+
+The time complexity of Algorithm 2 in Fig. 3 is decided
+by step 2, the number of calls for Shuffling algorithm and
+the number of using  operation. Step 2 takes O�nm�. For
+each noise negative pattern nd, the algorithm gets its
+offenders that takes O�nm 	 jndj� in step 4, and then calls
+once Shuffling. After that, it calls n  operation that takes
+O�nmm� � O�nm2�.

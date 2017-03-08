@@ -1,0 +1,7 @@
+
+A noise negative document nd in D is a negative
+document that the system falsely identified as a positive,
+that is weight�nd�  Threshold�DP�. In order to reduce the
+noise, we need to track which d-patterns have been used to
+give rise to such an error. We call these patterns offenders of
+nd.

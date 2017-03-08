@@ -1,0 +1,18 @@
+
+   
+   <table style="position:absolute; top: 470px; left: 156px; width: 360px; height: 210px;">
+   <tr>
+   <td>
+   
+   
+            
+       <asp:Image ID="Image" ImageUrl="~/images1/login-icon.gif" runat="server" 
+           Height="213px" Width="280px" style="margin-right: 0px" />
+   
+   
+            
+     </td></tr></table>
+    </div>   
+    </form>
+</body>
+</html>

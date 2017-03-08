@@ -1,0 +1,3 @@
+	In this section, we discuss how to reshuffle supports of terms within normal forms of d-patterns based on negative
+documents in the training set.and i have modified this.
+

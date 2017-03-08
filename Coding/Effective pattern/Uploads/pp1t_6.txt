@@ -1,0 +1,17 @@
+
+The task of algorithm Shuffling is to tune the support
+distribution of terms within a d-pattern. A different strategy
+is dedicated in this algorithm for each type of offender. As
+stated in step 2 in the algorithm Shuffling, complete conflict
+offenders (d-patterns) are removed since all elements
+within the d-patterns are held by the negative documents
+indicating that they can be discarded for preventing
+interference from these possible �noises.�
+The parameter offering is used in step 4 for the purpose of
+temporarily storing the reduced supports of some terms in a
+partial conflict offender. The offering is part of the sum of
+supports of terms in a d-pattern where these terms also
+appear in a noise document. The algorithm calculates the
+base in step 5 which is certainly not zero since
+termset�p�  nd 6� ;; and then updates the support distributions
+of terms in step 6.

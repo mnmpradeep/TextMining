@@ -1,0 +1,8 @@
+
+Features:
+	
+The system keeps the track of Agency Details
+The system keeps the track of All Consumers Agency wise
+The  system will displays statically data about Gas Cylinders
+Providing Online gas Booking Facility
+Providing Online Transfer request facility from one location to another

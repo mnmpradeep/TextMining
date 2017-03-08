@@ -1,0 +1,7 @@
+
+An offender of nd is a d-pattern that has at least one term
+in nd. The set of offenders of nd is defined by:
+�nd� � fp 2 DPjtermset�p� \ nd 6� ;g: �6�
+There are two types of offenders: 1) a complete conflict
+offender which is a subset of nd; and 2) a partial conflict
+offender which contains part of terms of nd.

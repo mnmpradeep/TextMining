@@ -1,0 +1,6 @@
+
+A threshold is usually used to classify documents into
+relevant or irrelevant categories. Using the d-patterns, the
+threshold can be defined naturally as follows:
+Threshold�DP� � min p2DP X �t;w�2�p�
+support�t� 0 @ 1 A: �5�

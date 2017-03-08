@@ -1,0 +1,8 @@
+DUE to the rapid growth of digital data made available in
+recent years, knowledge discovery and data mining
+have attracted a great deal of attention with an imminent
+need for turning such data into useful information and
+knowledge. Many applications, such as market analysis and
+business management, can benefit by the use of the
+information and knowledge extracted from a large amount
+of data. 

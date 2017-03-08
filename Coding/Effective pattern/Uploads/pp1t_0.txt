@@ -1,0 +1,7 @@
+In this section, we discuss how to reshuffle supports of
+terms within normal forms of d-patterns based on negative
+documents in the training set. The technique will be useful
+to reduce the side effects of noisy patterns because of the
+low-frequency problem. This technique is called inner
+pattern evolution here, because it only changes a pattern�s
+term supports within the pattern.

@@ -1,0 +1,11 @@
+The advantages of termbased
+methods include efficient computational performance
+as well as mature theories for term weighting,
+which have emerged over the last couple of decades from
+the IR and machine learning communities. However, termbased
+methods suffer from the problems of polysemy and
+synonymy, where polysemy means a word has multiple
+meanings, and synonymy is multiple words having the
+same meaning. The semantic meaning of many discovered
+terms is uncertain for answering what users want.
+dicover

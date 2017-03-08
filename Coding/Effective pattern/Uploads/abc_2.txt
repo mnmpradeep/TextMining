@@ -1,0 +1,2 @@
+
+ However, how to effectively use and update discovered patterns is still an open research issue, especially in the domain of text mining. Since most existing text mining methods adopted term-based approaches, they all suffer from the problems of polysemy and synonymy. Over the years, people have often held the hypothesis that pattern (or phrase)-based approaches should perform the hypothesis that pattern (or phrase)-based approaches should perform better than the term-based Ones, but many experiments do not support this hypothesis.

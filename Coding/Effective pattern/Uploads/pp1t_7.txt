@@ -1,0 +1,8 @@
+For example, for the following d-pattern
+ZHONG ET AL.: EFFECTIVE PATTERN DISCOVERY FOR TEXT MINING 35
+TABLE 3
+Example of a Set of Positive Documents Consisting
+of Pattern Taxonomies
+The number beside each sequential pattern indicates the absolute
+support of pattern.
+

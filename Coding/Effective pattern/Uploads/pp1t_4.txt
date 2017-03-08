@@ -1,0 +1,18 @@
+
+The basic idea of updating patterns is explained as follows:
+complete conflict offenders are removed from d-patterns
+first. For partial conflict offenders, their term supports are
+reshuffled in order to reduce the effects of noise documents.
+The main process of inner pattern evolution is implemented
+by the algorithm IPEvolving (see Algorithm 2 in
+Fig. 3). The inputs of this algorithm are a set of d-patterns
+DP, a training set D � D� [ D. The output is a composed
+of d-pattern. Step 2 in IPEvolving is used to estimate the
+threshold for finding the noise negative documents. Steps 3
+to 10 revise term supports by using all noise negative
+documents. Step 4 is to find noise documents and the
+corresponding offenders. Step 5 gets normal forms of dpatterns
+NDP. Step 6 calls algorithm Shuffling (see Algorithm
+3 in Fig. 4) to update NDP according to noise
+documents. Steps 7 to 9 compose updated normal forms
+together.
